@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/image_article"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dsa"
+        android:contentDescription="dsa image "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_article">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Comprehensive Guide to Machine Learning"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/Red"
+                android:paddingBottom="16dp" />
+
+            <!-- Introduction -->
+            <TextView
+                android:id="@+id/text_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Machine learning is a field of artificial intelligence that focuses on enabling systems to learn and improve from experience. It involves training models on large datasets to make predictions or decisions without explicit programming. Common tools include Python, TensorFlow, and PyTorch, which facilitate the development of both simple and complex machine learning models."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Supervised Learning -->
+            <TextView
+                android:id="@+id/text_supervised_learning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Supervised Learning"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Supervised learning is a type of machine learning where models are trained on labeled data. Common algorithms include linear regression, decision trees, and support vector machines, all used for tasks such as classification and regression."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Unsupervised Learning -->
+            <TextView
+                android:id="@+id/text_unsupervised_learning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unsupervised Learning"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unsupervised learning involves training models on unlabeled data to find hidden patterns or groupings. Examples include clustering and dimensionality reduction techniques, such as k-means clustering and principal component analysis (PCA)."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Neural Networks -->
+            <TextView
+                android:id="@+id/text_neural_networks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neural Networks"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neural networks are computational models inspired by the human brain, used for tasks like image and speech recognition. Deep learning, a subset of neural networks, involves multiple layers of processing to enable complex pattern recognition."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Reinforcement Learning -->
+            <TextView
+                android:id="@+id/text_reinforcement_learning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reinforcement Learning"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reinforcement learning is a technique where agents learn by interacting with their environment. It uses rewards and penalties to guide the agent's actions, commonly applied in gaming, robotics, and autonomous systems."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Model Evaluation -->
+            <TextView
+                android:id="@+id/text_model_evaluation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Model Evaluation"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Model evaluation metrics like accuracy, precision, recall, and F1-score are crucial for assessing a model's performance. These metrics help in determining how well the model generalizes to new data."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Conclusion -->
+            <TextView
+                android:id="@+id/text_conclusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Machine learning is a transformative technology with applications in numerous fields, including healthcare, finance, and automation. By mastering concepts such as supervised and unsupervised learning, neural networks, and reinforcement learning, one can develop powerful predictive and analytical models."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_pdf_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here to view the PDF"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

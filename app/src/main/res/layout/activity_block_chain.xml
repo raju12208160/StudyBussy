@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/image_article"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dsa"
+        android:contentDescription="dsa image "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_article">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Comprehensive Guide to BlockChain Technology"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/Red"
+                android:paddingBottom="16dp" />
+
+            <!-- Introduction -->
+            <TextView
+                android:id="@+id/text_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blockchain technology is a decentralized digital ledger that securely records transactions across multiple computers. It provides transparency, immutability, and security, making it suitable for applications beyond cryptocurrencies, such as supply chain management, digital identity, and financial services."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Blocks and Transactions -->
+            <TextView
+                android:id="@+id/text_blocks_transactions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blocks and Transactions"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A blockchain is composed of blocks, each containing a group of transactions. Transactions are verified and recorded in these blocks, which are then linked together in chronological order, creating a chain."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Consensus Mechanisms -->
+            <TextView
+                android:id="@+id/text_consensus_mechanisms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consensus Mechanisms"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consensus mechanisms like Proof of Work (PoW) and Proof of Stake (PoS) ensure agreement on the blockchain's state among participants. These mechanisms prevent double-spending and maintain network security."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Smart Contracts -->
+            <TextView
+                android:id="@+id/text_smart_contracts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smart Contracts"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They enable trustless, automated transactions and interactions on the blockchain, reducing the need for intermediaries."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Decentralized Applications (DApps) -->
+            <TextView
+                android:id="@+id/text_dapps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decentralized Applications (DApps)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DApps are applications that run on a decentralized network instead of centralized servers. These apps leverage blockchain for transparency, censorship resistance, and security, enabling peer-to-peer transactions."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Cryptography and Security -->
+            <TextView
+                android:id="@+id/text_cryptography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cryptography and Security"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blockchain uses cryptographic techniques like hashing and digital signatures to secure data, ensure integrity, and authenticate identities. This makes it tamper-resistant and highly secure for sensitive information."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Conclusion -->
+            <TextView
+                android:id="@+id/text_conclusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blockchain technology is transforming industries with its decentralized, secure, and transparent nature. By understanding the core components like blocks, consensus mechanisms, smart contracts, and cryptography, developers can unlock the potential of blockchain for innovative applications."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_pdf_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here to view the PDF"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/image_article"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dsa"
+        android:contentDescription="dsa image "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_article">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Comprehensive Guide to CyberSecurity"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/Red"
+                android:paddingBottom="16dp" />
+
+            <!-- Introduction -->
+            <TextView
+                android:id="@+id/text_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cybersecurity involves protecting systems, networks, and programs from digital attacks. These attacks aim to access, change, or destroy sensitive information, extort money, or disrupt normal operations. Key areas include data protection, secure communication, threat detection, and incident response. Cybersecurity relies on principles such as confidentiality, integrity, and availability to maintain safe digital environments."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Authentication Mechanisms -->
+            <TextView
+                android:id="@+id/text_authentication_mechanisms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Authentication Mechanisms"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Authentication is the process of verifying the identity of a user or system. Common methods include passwords, biometrics, and multi-factor authentication (MFA), each playing a crucial role in access control and ensuring secure system entry."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Network Security -->
+            <TextView
+                android:id="@+id/text_network_security"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Network Security"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Network security protects data during transfer by utilizing firewalls, intrusion detection systems (IDS), and encryption protocols. These tools help prevent unauthorized access and secure communication channels."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Threat Detection -->
+            <TextView
+                android:id="@+id/text_threat_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Threat Detection"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Threat detection involves identifying potential security threats through monitoring and analyzing system activity. Techniques include anomaly detection, signature-based detection, and behavior analysis to detect unauthorized access or unusual activities."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Encryption -->
+            <TextView
+                android:id="@+id/text_encryption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Encryption"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Encryption secures data by converting it into an unreadable format for unauthorized users. It plays a key role in protecting sensitive information during storage and transmission, ensuring data confidentiality."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Incident Response -->
+            <TextView
+                android:id="@+id/text_incident_response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incident Response"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incident response involves identifying, containing, and mitigating security incidents to minimize damage. Effective response plans and regular drills are essential for quick and efficient recovery from cyberattacks."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Conclusion -->
+            <TextView
+                android:id="@+id/text_conclusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cybersecurity is an evolving field that requires knowledge of both technical measures and strategic planning. By understanding and implementing practices like authentication, network security, threat detection, encryption, and incident response, individuals and organizations can safeguard their digital environments."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+
+            <TextView
+                android:id="@+id/text_pdf_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here to view the PDF"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

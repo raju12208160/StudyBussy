@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/image_article"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dsa"
+        android:contentDescription="dsa image "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_article">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Comprehensive Guide to Web Development"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/Red"
+                android:paddingBottom="16dp" />
+
+            <!-- Introduction -->
+            <TextView
+                android:id="@+id/text_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web development is the process of building and maintaining websites and web applications that run on browsers. It involves both frontend and backend development, utilizing languages and frameworks like HTML, CSS, JavaScript, and databases to create responsive and interactive websites."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Frontend Development -->
+            <TextView
+                android:id="@+id/text_frontend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frontend Development"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frontend development focuses on the visual elements of a website that users interact with. Technologies include HTML for structure, CSS for styling, and JavaScript for interactivity, along with frameworks like React, Vue, and Angular."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Backend Development -->
+            <TextView
+                android:id="@+id/text_backend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Backend Development"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Backend development involves building the server-side functionality of a website, including databases, server logic, and API integration. Common languages include PHP, Python, Node.js, and frameworks like Django, Laravel, and Express."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Databases -->
+            <TextView
+                android:id="@+id/text_databases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Databases"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Databases are essential for storing and managing data in web applications. Popular databases include MySQL, PostgreSQL, MongoDB, and Firebase, which enable efficient data handling and retrieval."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- APIs -->
+            <TextView
+                android:id="@+id/text_apis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APIs"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APIs (Application Programming Interfaces) are used to enable communication between different software systems. They play a critical role in modern web development, allowing applications to access data and services from other platforms."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Responsive Design -->
+            <TextView
+                android:id="@+id/text_responsive_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Responsive Design"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Responsive design ensures that websites provide an optimal user experience across various devices and screen sizes. Techniques include using flexible layouts, CSS media queries, and frameworks like Bootstrap and Tailwind."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Conclusion -->
+            <TextView
+                android:id="@+id/text_conclusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web development is a dynamic and essential field, involving both frontend and backend development skills. Mastering core concepts such as responsive design, APIs, and database management helps developers build efficient and interactive web applications."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_pdf_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here to view the PDF"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/image_article"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dsa"
+        android:contentDescription="dsa image "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_article">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Comprehensive Guide to Android Development"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/Red"
+                android:paddingBottom="16dp" />
+
+            <!-- Introduction -->
+            <TextView
+                android:id="@+id/text_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android development is the process of creating applications for devices running the Android operating system. It involves building interactive and user-friendly mobile applications that can run on smartphones, tablets, and other Android-powered devices. Android development relies on programming languages like Java and Kotlin, as well as tools such as Android Studio and various libraries to create robust and scalable apps. The goal is to provide seamless and responsive experiences, with access to device features like camera, GPS, storage, and networking, while ensuring high performance and optimal user experience."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Activity Lifecycle -->
+            <TextView
+                android:id="@+id/text_activity_lifecycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Lifecycle"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The activity lifecycle is a series of states through which an activity goes during its existence, such as created, started, resumed, paused, and destroyed. Understanding this lifecycle is essential for managing UI behavior and resource consumption in your Android app."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Fragments -->
+            <TextView
+                android:id="@+id/text_fragments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragments"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragments are reusable components that represent a portion of the user interface in an activity. They enable flexible UI designs and allow for modular, organized, and dynamic layout management in Android applications."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- RecyclerView -->
+            <TextView
+                android:id="@+id/text_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView is a powerful and efficient way to display large datasets in a scrollable list. It provides greater flexibility and performance than the ListView, allowing developers to create complex layouts with ViewHolders and adapters."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Intents -->
+            <TextView
+                android:id="@+id/text_intents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intents"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intents are used to start activities or services and to pass data between components. There are two types: explicit intents, which target specific components, and implicit intents, which allow interaction with components outside the app."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Layouts -->
+            <TextView
+                android:id="@+id/text_layouts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Layouts"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android layouts are XML files that define the structure of the user interface. Different layouts like LinearLayout, RelativeLayout, ConstraintLayout, and FrameLayout provide flexibility for arranging UI components in various configurations."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Conclusion -->
+            <TextView
+                android:id="@+id/text_conclusion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android development is a rich and evolving field that requires a strong understanding of both core concepts and new technologies. By mastering topics like activity lifecycle, fragments, RecyclerView, intents, and layouts, developers can create highly functional and engaging Android applications."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_pdf_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here to view the PDF"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
